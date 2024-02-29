@@ -266,3 +266,32 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+/*****Technical skills*******/
+
+.info-skills_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-skills_technical {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.info-skills_technical svg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.info-skills_technical span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
